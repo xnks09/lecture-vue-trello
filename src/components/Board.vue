@@ -13,7 +13,7 @@ export default {
     }
   },
   created() {
-    this.bid = this.$route.params.bid
+    this.bid = this.$route.params.bid //동적 라우팅으로 넘어온 bid값을 확인할 때
   }
 }
 </script>
