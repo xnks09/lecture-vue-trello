@@ -12,6 +12,7 @@ export default {
       cid: 0
     }
   },
+  // route가 변경이 되면 cid를 변경
   watch: {
     '$route'() {
       this.cid = this.$route.params.cid
