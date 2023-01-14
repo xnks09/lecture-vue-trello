@@ -16,4 +16,5 @@ const router = new VueRouter({
   ]
 })
 
+//사용할 수 있도록 모듈을 export
 export default router
